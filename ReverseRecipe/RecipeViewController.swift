@@ -247,7 +247,7 @@ extension RecipeViewController: UICollectionViewDelegateFlowLayout, UICollection
             ],[
                 "name" : "Shredded Chicken",
                 "link" : "https://www.meatloafandmelodrama.com/easy-crock-pot-shredded-chicken/",
-                "ingredients" :  ["Chicken Breast", "Garlic", "Olive Oil", "Onion"],
+                "ingredients" : ["Chicken Breast", "Garlic", "Olive Oil", "Onion"],
                 "imageLink" : "https://www.meatloafandmelodrama.com/wp-content/uploads/2016/05/crock-pot-shredded-chicken.jpg"
             ],[
                 "name" : "Pan Seared Chicken Breast",
