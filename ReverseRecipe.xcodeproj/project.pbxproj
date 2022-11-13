@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		181C8BA72920B40400033EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BA62920B40400033EA0 /* AppDelegate.swift */; };
 		181C8BA92920B40400033EA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BA82920B40400033EA0 /* SceneDelegate.swift */; };
-		181C8BAB2920B40400033EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BAA2920B40400033EA0 /* ViewController.swift */; };
+		181C8BAB2920B40400033EA0 /* HomepageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BAA2920B40400033EA0 /* HomepageController.swift */; };
 		181C8BAE2920B40400033EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C8BAC2920B40400033EA0 /* Main.storyboard */; };
 		181C8BB02920B40800033EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181C8BAF2920B40800033EA0 /* Assets.xcassets */; };
 		181C8BB32920B40800033EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181C8BB12920B40800033EA0 /* LaunchScreen.storyboard */; };
 		181C8BBE2920B40900033EA0 /* ReverseRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BBD2920B40900033EA0 /* ReverseRecipeTests.swift */; };
 		181C8BC82920B40900033EA0 /* ReverseRecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BC72920B40900033EA0 /* ReverseRecipeUITests.swift */; };
 		181C8BCA2920B40900033EA0 /* ReverseRecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BC92920B40900033EA0 /* ReverseRecipeUITestsLaunchTests.swift */; };
+		181C8BD72920B69700033EA0 /* IngredientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BD62920B69700033EA0 /* IngredientViewController.swift */; };
+		181C8BD92920B6C000033EA0 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BD82920B6C000033EA0 /* RecipeViewController.swift */; };
+		181C8BDE2920BDCC00033EA0 /* IngredientCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BDC2920BDCC00033EA0 /* IngredientCollectionViewCell.swift */; };
+		181C8BDF2920BDCC00033EA0 /* IngredientCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181C8BDD2920BDCC00033EA0 /* IngredientCollectionViewCell.xib */; };
+		181C8BE12920C7D900033EA0 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BE02920C7D800033EA0 /* Ingredients.swift */; };
+		181C8BE42920CDDE00033EA0 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C8BE22920CDDE00033EA0 /* RecipeCollectionViewCell.swift */; };
+		181C8BE52920CDDE00033EA0 /* RecipeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181C8BE32920CDDE00033EA0 /* RecipeCollectionViewCell.xib */; };
+		6BDBFC3ECE30592DC3DBAC28 /* Pods_ReverseRecipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A3CCE47064F5040BECC310 /* Pods_ReverseRecipe.framework */; };
+		BFB079D4E8AC9198F9347FB4 /* Pods_ReverseRecipe_ReverseRecipeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5F298328773E611DE4BF0A /* Pods_ReverseRecipe_ReverseRecipeUITests.framework */; };
+		CD4E4351F9841842FB26CBC1 /* Pods_ReverseRecipeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06942B2FE048CF66B5E1F906 /* Pods_ReverseRecipeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06942B2FE048CF66B5E1F906 /* Pods_ReverseRecipeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReverseRecipeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C8BA32920B40400033EA0 /* ReverseRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C8BA62920B40400033EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		181C8BA82920B40400033EA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		181C8BAA2920B40400033EA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181C8BAA2920B40400033EA0 /* HomepageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageController.swift; sourceTree = "<group>"; };
 		181C8BAD2920B40400033EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181C8BAF2920B40800033EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181C8BB22920B40800033EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,22 @@
 		181C8BC32920B40900033EA0 /* ReverseRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReverseRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181C8BC72920B40900033EA0 /* ReverseRecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseRecipeUITests.swift; sourceTree = "<group>"; };
 		181C8BC92920B40900033EA0 /* ReverseRecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseRecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		181C8BD62920B69700033EA0 /* IngredientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientViewController.swift; sourceTree = "<group>"; };
+		181C8BD82920B6C000033EA0 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		181C8BDC2920BDCC00033EA0 /* IngredientCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCollectionViewCell.swift; sourceTree = "<group>"; };
+		181C8BDD2920BDCC00033EA0 /* IngredientCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientCollectionViewCell.xib; sourceTree = "<group>"; };
+		181C8BE02920C7D800033EA0 /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		181C8BE22920CDDE00033EA0 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		181C8BE32920CDDE00033EA0 /* RecipeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeCollectionViewCell.xib; sourceTree = "<group>"; };
+		181C8BF1292106DE00033EA0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../../Downloads/Fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		6B5F298328773E611DE4BF0A /* Pods_ReverseRecipe_ReverseRecipeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReverseRecipe_ReverseRecipeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C49EDD6C66DB2976FB8FE68 /* Pods-ReverseRecipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseRecipeTests.debug.xcconfig"; path = "Target Support Files/Pods-ReverseRecipeTests/Pods-ReverseRecipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BAC7225CFB761C7C63BF36F /* Pods-ReverseRecipe-ReverseRecipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseRecipe-ReverseRecipeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReverseRecipe-ReverseRecipeUITests/Pods-ReverseRecipe-ReverseRecipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A3CCE47064F5040BECC310 /* Pods_ReverseRecipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReverseRecipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD7E6C3136379D11D08BD62 /* Pods-ReverseRecipe-ReverseRecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseRecipe-ReverseRecipeUITests.release.xcconfig"; path = "Target Support Files/Pods-ReverseRecipe-ReverseRecipeUITests/Pods-ReverseRecipe-ReverseRecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBE2569C8DCA0DC170AA79A8 /* Pods-ReverseRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseRecipeTests.release.xcconfig"; path = "Target Support Files/Pods-ReverseRecipeTests/Pods-ReverseRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF940484295FF5D3D019517F /* Pods-ReverseRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseRecipe.debug.xcconfig"; path = "Target Support Files/Pods-ReverseRecipe/Pods-ReverseRecipe.debug.xcconfig"; sourceTree = "<group>"; };
+		E7C60CC73288FEF5214B2192 /* Pods-ReverseRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReverseRecipe.release.xcconfig"; path = "Target Support Files/Pods-ReverseRecipe/Pods-ReverseRecipe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDBFC3ECE30592DC3DBAC28 /* Pods_ReverseRecipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4E4351F9841842FB26CBC1 /* Pods_ReverseRecipeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB079D4E8AC9198F9347FB4 /* Pods_ReverseRecipe_ReverseRecipeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +113,8 @@
 				181C8BBC2920B40900033EA0 /* ReverseRecipeTests */,
 				181C8BC62920B40900033EA0 /* ReverseRecipeUITests */,
 				181C8BA42920B40400033EA0 /* Products */,
+				B28959694DCE942087512A9E /* Pods */,
+				7BD9A12D6F41EE791EAAE732 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +131,21 @@
 		181C8BA52920B40400033EA0 /* ReverseRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				181C8BE6292106CB00033EA0 /* Fonts */,
 				181C8BA62920B40400033EA0 /* AppDelegate.swift */,
 				181C8BA82920B40400033EA0 /* SceneDelegate.swift */,
-				181C8BAA2920B40400033EA0 /* ViewController.swift */,
+				181C8BAA2920B40400033EA0 /* HomepageController.swift */,
 				181C8BAC2920B40400033EA0 /* Main.storyboard */,
 				181C8BAF2920B40800033EA0 /* Assets.xcassets */,
 				181C8BB12920B40800033EA0 /* LaunchScreen.storyboard */,
 				181C8BB42920B40800033EA0 /* Info.plist */,
+				181C8BD62920B69700033EA0 /* IngredientViewController.swift */,
+				181C8BD82920B6C000033EA0 /* RecipeViewController.swift */,
+				181C8BDC2920BDCC00033EA0 /* IngredientCollectionViewCell.swift */,
+				181C8BDD2920BDCC00033EA0 /* IngredientCollectionViewCell.xib */,
+				181C8BE02920C7D800033EA0 /* Ingredients.swift */,
+				181C8BE22920CDDE00033EA0 /* RecipeCollectionViewCell.swift */,
+				181C8BE32920CDDE00033EA0 /* RecipeCollectionViewCell.xib */,
 			);
 			path = ReverseRecipe;
 			sourceTree = "<group>";
@@ -127,6 +167,37 @@
 			path = ReverseRecipeUITests;
 			sourceTree = "<group>";
 		};
+		181C8BE6292106CB00033EA0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				181C8BF1292106DE00033EA0 /* Poppins-Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		7BD9A12D6F41EE791EAAE732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9A3CCE47064F5040BECC310 /* Pods_ReverseRecipe.framework */,
+				6B5F298328773E611DE4BF0A /* Pods_ReverseRecipe_ReverseRecipeUITests.framework */,
+				06942B2FE048CF66B5E1F906 /* Pods_ReverseRecipeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B28959694DCE942087512A9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF940484295FF5D3D019517F /* Pods-ReverseRecipe.debug.xcconfig */,
+				E7C60CC73288FEF5214B2192 /* Pods-ReverseRecipe.release.xcconfig */,
+				9BAC7225CFB761C7C63BF36F /* Pods-ReverseRecipe-ReverseRecipeUITests.debug.xcconfig */,
+				BDD7E6C3136379D11D08BD62 /* Pods-ReverseRecipe-ReverseRecipeUITests.release.xcconfig */,
+				7C49EDD6C66DB2976FB8FE68 /* Pods-ReverseRecipeTests.debug.xcconfig */,
+				CBE2569C8DCA0DC170AA79A8 /* Pods-ReverseRecipeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181C8BCD2920B40900033EA0 /* Build configuration list for PBXNativeTarget "ReverseRecipe" */;
 			buildPhases = (
+				B798730065CAA3513E3DEFD4 /* [CP] Check Pods Manifest.lock */,
 				181C8B9F2920B40400033EA0 /* Sources */,
 				181C8BA02920B40400033EA0 /* Frameworks */,
 				181C8BA12920B40400033EA0 /* Resources */,
+				4AD9E3FFE67E97C651011357 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181C8BD02920B40900033EA0 /* Build configuration list for PBXNativeTarget "ReverseRecipeTests" */;
 			buildPhases = (
+				3E66947C20F37E9159F101F6 /* [CP] Check Pods Manifest.lock */,
 				181C8BB52920B40900033EA0 /* Sources */,
 				181C8BB62920B40900033EA0 /* Frameworks */,
 				181C8BB72920B40900033EA0 /* Resources */,
@@ -169,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181C8BD32920B40900033EA0 /* Build configuration list for PBXNativeTarget "ReverseRecipeUITests" */;
 			buildPhases = (
+				7B41F0147C131FD5FA4FBB85 /* [CP] Check Pods Manifest.lock */,
 				181C8BBF2920B40900033EA0 /* Sources */,
 				181C8BC02920B40900033EA0 /* Frameworks */,
 				181C8BC12920B40900033EA0 /* Resources */,
+				D99B3227BDDD5133D1949BC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +307,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181C8BE52920CDDE00033EA0 /* RecipeCollectionViewCell.xib in Resources */,
 				181C8BB32920B40800033EA0 /* LaunchScreen.storyboard in Resources */,
 				181C8BB02920B40800033EA0 /* Assets.xcassets in Resources */,
+				181C8BDF2920BDCC00033EA0 /* IngredientCollectionViewCell.xib in Resources */,
 				181C8BAE2920B40400033EA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +331,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E66947C20F37E9159F101F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReverseRecipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD9E3FFE67E97C651011357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseRecipe/Pods-ReverseRecipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseRecipe/Pods-ReverseRecipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReverseRecipe/Pods-ReverseRecipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B41F0147C131FD5FA4FBB85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReverseRecipe-ReverseRecipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B798730065CAA3513E3DEFD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReverseRecipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D99B3227BDDD5133D1949BC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseRecipe-ReverseRecipeUITests/Pods-ReverseRecipe-ReverseRecipeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReverseRecipe-ReverseRecipeUITests/Pods-ReverseRecipe-ReverseRecipeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReverseRecipe-ReverseRecipeUITests/Pods-ReverseRecipe-ReverseRecipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181C8B9F2920B40400033EA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181C8BAB2920B40400033EA0 /* ViewController.swift in Sources */,
+				181C8BE42920CDDE00033EA0 /* RecipeCollectionViewCell.swift in Sources */,
+				181C8BE12920C7D900033EA0 /* Ingredients.swift in Sources */,
+				181C8BAB2920B40400033EA0 /* HomepageController.swift in Sources */,
+				181C8BD72920B69700033EA0 /* IngredientViewController.swift in Sources */,
 				181C8BA72920B40400033EA0 /* AppDelegate.swift in Sources */,
+				181C8BDE2920BDCC00033EA0 /* IngredientCollectionViewCell.swift in Sources */,
 				181C8BA92920B40400033EA0 /* SceneDelegate.swift in Sources */,
+				181C8BD92920B6C000033EA0 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +618,7 @@
 		};
 		181C8BCE2920B40900033EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF940484295FF5D3D019517F /* Pods-ReverseRecipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +631,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,12 +641,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		181C8BCF2920B40900033EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7C60CC73288FEF5214B2192 /* Pods-ReverseRecipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +660,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,12 +670,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		181C8BD12920B40900033EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C49EDD6C66DB2976FB8FE68 /* Pods-ReverseRecipeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +696,7 @@
 		};
 		181C8BD22920B40900033EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBE2569C8DCA0DC170AA79A8 /* Pods-ReverseRecipeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +716,7 @@
 		};
 		181C8BD42920B40900033EA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BAC7225CFB761C7C63BF36F /* Pods-ReverseRecipe-ReverseRecipeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +734,7 @@
 		};
 		181C8BD52920B40900033EA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD7E6C3136379D11D08BD62 /* Pods-ReverseRecipe-ReverseRecipeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

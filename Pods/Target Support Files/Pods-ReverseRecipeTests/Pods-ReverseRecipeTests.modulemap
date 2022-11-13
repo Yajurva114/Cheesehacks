@@ -1,0 +1,6 @@
+framework module Pods_ReverseRecipeTests {
+  umbrella header "Pods-ReverseRecipeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
